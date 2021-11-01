@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Multivib_Library)(type Legacy)(uri ${KIPRJMOD}/Multivib_Library.lib)(options "")(descr ""))
+  (lib (name Apzimejums)(type Legacy)(uri ${KIPRJMOD}/M_Vinnina_MultiVib/Multivib.pretty/Apzimejums.lib)(options "")(descr ""))
+)

@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small R1
+U 1 1 617859CE
+P 5050 3000
+F 0 "R1" H 4900 3050 50  0000 L CNN
+F 1 "470R" H 4800 2950 50  0000 L CNN
+F 2 "" H 5050 3000 50  0001 C CNN
+F 3 "~" H 5050 3000 50  0001 C CNN
+	1    5050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 617861D9
+P 5550 3000
+F 0 "R2" H 5609 3046 50  0000 L CNN
+F 1 "47K" H 5609 2955 50  0000 L CNN
+F 2 "" H 5550 3000 50  0001 C CNN
+F 3 "~" H 5550 3000 50  0001 C CNN
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 617867F2
+P 5900 3000
+F 0 "R3" H 5959 3046 50  0000 L CNN
+F 1 "47K" H 5959 2955 50  0000 L CNN
+F 2 "" H 5900 3000 50  0001 C CNN
+F 3 "~" H 5900 3000 50  0001 C CNN
+	1    5900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 61786A40
+P 6200 3000
+F 0 "R4" H 6259 3046 50  0000 L CNN
+F 1 "470R" H 6259 2955 50  0000 L CNN
+F 2 "" H 6200 3000 50  0001 C CNN
+F 3 "~" H 6200 3000 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 61786E04
+P 5050 2500
+F 0 "D1" V 5089 2382 50  0000 R CNN
+F 1 "LED" V 4998 2382 50  0000 R CNN
+F 2 "" H 5050 2500 50  0001 C CNN
+F 3 "~" H 5050 2500 50  0001 C CNN
+	1    5050 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 617879BE
+P 6200 2500
+F 0 "D2" V 6239 2382 50  0000 R CNN
+F 1 "LED" V 6148 2382 50  0000 R CNN
+F 2 "" H 6200 2500 50  0001 C CNN
+F 3 "~" H 6200 2500 50  0001 C CNN
+	1    6200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 617881FB
+P 5300 3300
+F 0 "C1" V 5450 3300 50  0000 C CNN
+F 1 "47uF" V 5150 3300 50  0000 C CNN
+F 2 "" H 5300 3300 50  0001 C CNN
+F 3 "~" H 5300 3300 50  0001 C CNN
+	1    5300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 61788BF7
+P 6050 3300
+F 0 "C2" V 5900 3300 50  0000 C CNN
+F 1 "47uF" V 6200 3300 50  0000 C CNN
+F 2 "" H 6050 3300 50  0001 C CNN
+F 3 "~" H 6050 3300 50  0001 C CNN
+	1    6050 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 6178BE42
+P 4100 3400
+F 0 "BT1" H 4208 3446 50  0000 L CNN
+F 1 "9V" H 4208 3355 50  0000 L CNN
+F 2 "" V 4100 3460 50  0001 C CNN
+F 3 "~" V 4100 3460 50  0001 C CNN
+	1    4100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2650 5050 2900
+Wire Wire Line
+	5050 3100 5050 3300
+Wire Wire Line
+	5050 3300 5200 3300
+Wire Wire Line
+	5900 3100 5900 3300
+Connection ~ 5900 3300
+Wire Wire Line
+	5900 3300 5950 3300
+Wire Wire Line
+	5400 3300 5550 3300
+Wire Wire Line
+	5550 3300 5550 3100
+Wire Wire Line
+	5550 2900 5550 2200
+Wire Wire Line
+	5550 2200 5050 2200
+Wire Wire Line
+	5050 2200 5050 2350
+Wire Wire Line
+	5550 2200 5900 2200
+Wire Wire Line
+	5900 2200 5900 2900
+Connection ~ 5550 2200
+Wire Wire Line
+	5900 2200 6200 2200
+Wire Wire Line
+	6200 2200 6200 2350
+Connection ~ 5900 2200
+Wire Wire Line
+	6200 2650 6200 2900
+Wire Wire Line
+	6200 3100 6200 3300
+Wire Wire Line
+	6200 3300 6150 3300
+Connection ~ 6200 3300
+Wire Wire Line
+	4100 3200 4100 2200
+Wire Wire Line
+	4100 2200 5050 2200
+Connection ~ 5050 2200
+Wire Wire Line
+	5550 3550 5550 3500
+Wire Wire Line
+	5550 3500 5050 3500
+Wire Wire Line
+	5050 3300 5050 3500
+Connection ~ 5050 3300
+Wire Wire Line
+	5750 3550 5750 3500
+Wire Wire Line
+	5550 4300 5550 4050
+Wire Wire Line
+	4100 3600 4100 4300
+Wire Wire Line
+	5650 4050 5650 4300
+Wire Wire Line
+	4100 4300 5550 4300
+Connection ~ 5550 4300
+Wire Wire Line
+	5550 4300 5650 4300
+Wire Wire Line
+	5750 4050 5750 4300
+Wire Wire Line
+	5650 3550 5650 3300
+Wire Wire Line
+	5650 3300 5550 3300
+Connection ~ 5550 3300
+Wire Wire Line
+	6200 3300 6200 3500
+Wire Wire Line
+	5900 4300 5750 4300
+Wire Wire Line
+	5900 3300 5900 4300
+Wire Wire Line
+	5750 3500 6200 3500
+$Comp
+L Multivib_Library:BCM846BS U1
+U 1 1 6179F4BE
+P 5650 3800
+F 0 "U1" H 5700 4150 50  0000 R CNN
+F 1 "BCM846BS" H 5850 4050 50  0000 R CNN
+F 2 "" H 5650 3800 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2043702.pdf" H 5650 3800 50  0001 C CNN
+	1    5650 3800
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

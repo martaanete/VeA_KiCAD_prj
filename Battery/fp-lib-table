@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Battery)(type KiCad)(uri ${KIPRJMOD}/Battery.pretty)(options "")(descr ""))
+  (lib (name Battery_Holders)(type KiCad)(uri ${KIPRJMOD}/Battery_Holders)(options "")(descr ""))
+)

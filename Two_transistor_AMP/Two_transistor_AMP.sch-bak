@@ -85,7 +85,7 @@ U 1 1 61813E8C
 P 8250 2500
 F 0 "C2" V 7998 2500 50  0000 C CNN
 F 1 "0.47uF" V 8089 2500 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8288 2350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal" H 8288 2350 50  0001 C CNN
 F 3 "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal" H 8250 2500 50  0001 C CNN
 	1    8250 2500
 	0    1    1    0   
@@ -169,7 +169,7 @@ U 1 1 61818BEB
 P 9500 2350
 F 0 "C3" H 9615 2396 50  0000 L CNN
 F 1 "47uF" H 9615 2305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 9538 2200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal" H 9538 2200 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2968681.pdf" H 9500 2350 50  0001 C CNN
 	1    9500 2350
 	1    0    0    -1  
